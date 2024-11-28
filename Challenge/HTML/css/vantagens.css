@@ -1,0 +1,131 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f9fc;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 1.5rem 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+}
+
+.vantagens-page {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.vantagens-page h2 {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 2rem;
+}
+
+.vantagens-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.vantagem-card {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.vantagem-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.vantagem-card h3 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-top: 1rem;
+}
+
+.vantagem-card p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.vantagem-imagem {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.cta {
+    margin-top: 3rem;
+    padding: 2rem;
+    background-color: #e9f5ff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cta h3 {
+    font-size: 1.8rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+}
+
+.cta .button {
+    background-color: #007bff;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+
+}
+
+.cta .button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #007bff;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}

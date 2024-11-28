@@ -1,0 +1,112 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+
+.task-input {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    width: 300px;
+    font-size: 1rem;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+
+.task-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-item {
+    background-color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-item.completed {
+    background-color: #d4edda;
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+button.complete {
+    background-color: #ffc107;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.complete:hover {
+    background-color: #e0a800;
+}
+
+
+.notification {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #28a745;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
